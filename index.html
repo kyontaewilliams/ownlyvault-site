@@ -308,7 +308,7 @@
   .bv-stat .l{font-size:14px;opacity:.92}
 
   /* ---------- TESTIMONIALS ---------- */
-  .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
   .quote{background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:28px 26px;box-shadow:var(--shadow-sm)}
   .quote .stars{color:#F5B400;font-size:15px;letter-spacing:2px;margin-bottom:14px}
   .quote p{font-size:15.5px;color:var(--navy);margin-bottom:20px}
@@ -367,7 +367,10 @@
   /* ---------- RESPONSIVE ---------- */
   @media(max-width:960px){
     .nav-links{display:none}
-    .hamburger{display:block}
+    .nav-cta .login{display:none}
+    .nav-cta{gap:0}
+    .nav-cta .btn-primary{padding:11px 18px;font-size:14px}
+    .hamburger{display:block;margin-left:4px}
     .hero-grid{grid-template-columns:1fr;gap:40px}
     .preview{transform:none;max-width:440px;margin:0 auto}
     .pillars{grid-template-columns:1fr}
@@ -695,6 +698,11 @@
         <div class="stars">★★★★★</div>
         <p>"Finally, a platform that's actually on the owner's side. Simple, secure, and completely in my control — and it cost me nothing."</p>
         <div class="who"><div class="av">JL</div><div><b>Jason L.</b><span>Nashville, TN</span></div></div>
+      </div>
+      <div class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <p>"I was facing foreclosure and worn down by endless calls from people 'claiming to help' — every one of them wanted something. OwnlyVault was the first place that actually put me in control. I sold on my own timeline and walked away with more for my next chapter."</p>
+        <div class="who"><div class="av">RW</div><div><b>Renee W.</b><span>Sacramento, CA</span></div></div>
       </div>
     </div>
   </div>
